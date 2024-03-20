@@ -1,0 +1,113 @@
+/* CSS styles for the body */
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* Background image */
+    font-family: sans-serif; /* Font family */
+    padding: 20px; /* Padding around the content */
+  }
+  
+  /* CSS styles for headings */
+  h1 {
+    font-size: 40px; /* Font size */
+    margin-top: 0; /* Top margin */
+    margin-bottom: 15px; /* Bottom margin */
+  }
+  
+  h2 {
+    font-size: 30px; /* Font size */
+  }
+  
+  /* CSS styles for the 'established' class */
+  .established {
+    font-style: italic; /* Italic font style */
+  }
+  
+  /* CSS styles for headings and paragraphs */
+  h1, h2, p {
+    text-align: center; /* Center alignment */
+  }
+  
+  /* CSS styles for the main menu container */
+  .menu {
+    width: 80%; /* Width */
+    background-color: burlywood; /* Background color */
+    margin-left: auto; /* Margin left */
+    margin-right: auto; /* Margin right */
+    padding: 20px; /* Padding */
+    max-width: 500px; /* Maximum width */
+  }
+  
+  /* CSS styles for images */
+  img {
+    display: block; /* Block-level display */
+    margin-left: auto; /* Margin left */
+    margin-right: auto; /* Margin right */
+    margin-top: -25px; /* Top margin */
+  }
+  
+  /* CSS styles for horizontal rule */
+  hr {
+    height: 2px; /* Height */
+    background-color: brown; /* Background color */
+    border-color: brown; /* Border color */
+  }
+  
+  /* CSS styles for bottom line */
+  .bottom-line {
+    margin-top: 25px; /* Top margin */
+  }
+  
+  /* CSS styles for headings */
+  h1, h2 {
+    font-family: Impact, serif; /* Font family */
+  }
+  
+  /* CSS styles for paragraphs within 'item' class */
+  .item p {
+    display: inline-block; /* Inline-block display */
+    margin-top: 5px; /* Top margin */
+    margin-bottom: 5px; /* Bottom margin */
+    font-size: 18px; /* Font size */
+  }
+  
+  /* CSS styles for flavors and desserts */
+  .flavor, .dessert {
+    text-align: left; /* Left alignment */
+    width: 75%; /* Width */
+  }
+  
+  /* CSS styles for prices */
+  .price {
+    text-align: right; /* Right alignment */
+    width: 25%; /* Width */
+  }
+  
+  /* CSS styles for the footer */
+  footer {
+    font-size: 14px; /* Font size */
+  }
+  
+  /* CSS styles for the address */
+  .address {
+    margin-bottom: 5px; /* Bottom margin */
+  }
+  
+  /* CSS styles for links */
+  a {
+    color: black; /* Link color */
+  }
+  
+  /* CSS styles for visited links */
+  a:visited {
+    color: black; /* Visited link color */
+  }
+  
+  /* CSS styles for hover state of links */
+  a:hover {
+    color: brown; /* Link color on hover */
+  }
+  
+  /* CSS styles for active links */
+  a:active {
+    color: brown; /* Active link color */
+  }
+  

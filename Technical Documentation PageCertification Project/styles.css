@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html, body {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.padding{
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+#navbar{
+    min-width: 300px;
+    width: 330px;
+    position: fixed;
+}
+header{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+hr{
+    padding-bottom: .5em;
+}
+#navbar .title{
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 25%;
+    font-weight: 600;
+    letter-spacing: -6px;
+    font-family: 'Raleway';
+}
+#navbar i{
+    color: #f8ca67;
+    font-size: 1.3em;
+    margin-right: .09em; 
+}
+#navbar li{
+    margin: 0 13%;
+    font-size: 1.1em;
+}
+.nav-link{
+    color: #454549;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: #f73859;
+}
+
+#main-doc{
+    padding: 2.5em 3em 3em;
+    background-color: white;
+}
+.main-section{
+    margin-bottom: 2.5em;
+}
+.main-section article{
+    color: #4d4e53;
+    line-height: 1.6;
+}
+.main-section li{
+    margin-left: 1.6em;
+    margin-top: 1.5em;
+}
+code{
+    display:block;
+    text-align: left;
+    white-space: pre;
+    line-height: 2;
+    background-color:#f7f7f7;
+    padding:15px;
+    margin:10px;
+    color: #f73859;
+    border-radius:5px;
+}
+@media only screen and (max-width: 1680px){
+    #main-doc{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 575px){
+    #main-doc{
+        margin: 0 5%;
+    }
+    #navbar{
+        width: 100%;
+        position: relative;
+    }
+    .navbar-movil{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5% 5% 3% 5%;
+    }
+    .navbar-toggler {
+        color: #454549;
+        border-color: #9393953b; 
+    }
+    .navbar-toggler-icon {
+        padding: 1px 4px;
+        font-weight: 300;
+    }
+    #navbar .title{
+        font-size: 2.5em;
+        padding-top: 0%;
+        padding-left: 2%; 
+    }
+    #navbar li{
+        margin: 0 13%;
+    }
+    #navbar i{
+        margin-right: .15em; 
+        color: #f8c149d7;
+    }
+}
